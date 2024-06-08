@@ -1,3 +1,4 @@
+require("dotenv").config();
 from flask import Flask, render_template
 from threading import Thread
 
@@ -35,7 +36,7 @@ app = Flask(__name__)
 
 ###########SETUP###############
 prefix = "?"                                                    #
-token = "token"                                            #
+token = "process.env.token"                                            #
 spam_messages = "QUALIFY NUKED YOU CLOWNS @here"         #
 massdm = "THIS SERVER GOT NUKED BY QUALIFIER"                    #
 rolenames = "UR A CLOWN"         #                                                            
