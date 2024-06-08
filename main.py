@@ -31,6 +31,10 @@ bot.remove_command("help")
 os.system('cls' if os.name == 'nt' else 'clear')
 @bot.event
 async def on_ready():
+    client.user.setActivity("?help", {
+    type:"STREAMING",
+    url: "https://www.twitch.tv/discord"
+});
     Clear()
 
     print(f'''{Fore.CYAN}
@@ -49,7 +53,7 @@ async def on_ready():
 async def help(ctx):
         await ctx.message.delete()
         embed = discord.Embed(color=000000, timestamp=ctx.message.created_at)
-        embed.set_author(name=" 🌠 Terminal Nuker")
+        embed.set_author(name=" 🌠 qualify nuker")
         embed.add_field(name="`NUKE`", value="- destroys the server")
         embed.add_field(name="`SPAM`", value="- spams the server")
         embed.add_field(name="`BAN`", value="- bans all members in the server")
@@ -59,7 +63,7 @@ async def help(ctx):
         embed.add_field(name="`ROLES`", value="- deletes all roles in the server, and creates new ones")
         embed.add_field(name="`DCHANNELS`", value="- deletes all channels in the server")
         embed.add_field(name="`SCHANNELS`", value="- spams channels in the server")
-        embed.set_image(url="")
+        embed.set_image(url="https://cdn.xoa.me/uploads/4f22e273-e847-4b42-a1bd-dd8af879c242.jpeg")
         await ctx.send(embed=embed)
 
 
