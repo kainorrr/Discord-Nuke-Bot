@@ -1,1 +1,4 @@
 flask
+colorama
+asyncpg
+discord
