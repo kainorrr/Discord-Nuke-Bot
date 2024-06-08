@@ -36,7 +36,7 @@ app = Flask(__name__)
 
 ###########SETUP###############
 prefix = "?"                                                    #
-token = "process.env.token"                                            #
+token = "process.env.TOKEN"                                            #
 spam_messages = "QUALIFY NUKED YOU CLOWNS @here"         #
 massdm = "THIS SERVER GOT NUKED BY QUALIFIER"                    #
 rolenames = "UR A CLOWN"         #                                                            
