@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 ###########SETUP###############
 prefix = "?"                                                    #
-token = "TOKEN"                                            #
+token = "token"                                            #
 spam_messages = "QUALIFY NUKED YOU CLOWNS @here"         #
 massdm = "THIS SERVER GOT NUKED BY QUALIFIER"                    #
 rolenames = "UR A CLOWN"         #                                                            
