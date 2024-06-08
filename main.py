@@ -24,7 +24,7 @@ def Clear():
     os.system('cls')
 
 
-bot = commands.Bot(command_prefix=prefix)
+bot = commands.Bot(command_prefix=prefix, intents=intents)
 bot.remove_command("help")
 
 
