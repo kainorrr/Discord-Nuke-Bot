@@ -4,4 +4,3 @@ asyncpg
 discord
 asyncio
 fore
-dotenv
