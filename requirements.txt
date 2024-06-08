@@ -2,3 +2,5 @@ flask
 colorama
 asyncpg
 discord
+asyncio
+fore
